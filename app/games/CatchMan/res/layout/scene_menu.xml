@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+   	
+    <ImageView
+        android:id="@+id/image_app_icon"
+        android:src="@drawable/icon"
+        android:layout_width="100dip"
+        android:layout_height="100dip"
+        android:contentDescription="@string/app_name"
+        android:layout_gravity="center"
+        />
+    
+    <TextView
+        android:id="@+id/text_app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name" 
+        android:layout_marginBottom="30dip"
+        android:layout_marginTop="20dip"
+        android:textSize="16dip"
+        />
+    
+    <Button
+        android:id="@+id/btn_start"
+        android:layout_width="80dip"
+        android:layout_height="40dip"
+        android:text="@string/newGame" 
+        android:textSize="12dip"
+        />
+
+    <Button
+        android:id="@+id/btn_enter"
+        android:layout_width="80dip"
+        android:layout_height="40dip"
+        android:text="@string/netGame" 
+        android:textSize="12dip"
+        />
+    
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="80dip"
+        android:layout_height="40dip"
+        android:text="@string/quit" 
+        android:textSize="12dip"
+        />
+
+</LinearLayout>

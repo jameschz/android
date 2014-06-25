@@ -1,0 +1,100 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  Internal Error (classFileParser.cpp:3494), pid=3176, tid=672
+#  Error: ShouldNotReachHere()
+#
+# JRE version: 6.0_25-b06
+# Java VM: Java HotSpot(TM) Client VM (20.0-b11 mixed mode windows-x86 )
+# If you would like to submit a bug report, please visit:
+#   http://java.sun.com/webapps/bugreport/crash.jsp
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x00846c00):  JavaThread "Unknown thread" [_thread_in_vm, id=672, stack(0x008e0000,0x00930000)]
+
+Stack: [0x008e0000,0x00930000],  sp=0x0092f898,  free space=318k
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+V  [jvm.dll+0x13363a]
+V  [jvm.dll+0x12e59b]
+V  [jvm.dll+0x164ce]
+V  [jvm.dll+0x17cff]
+V  [jvm.dll+0x26de5]
+V  [jvm.dll+0x27626]
+V  [jvm.dll+0x279d5]
+V  [jvm.dll+0x27a69]
+V  [jvm.dll+0x27b2c]
+V  [jvm.dll+0x27baa]
+V  [jvm.dll+0x27c8d]
+V  [jvm.dll+0x27f59]
+V  [jvm.dll+0x6c593]
+V  [jvm.dll+0x6c96c]
+V  [jvm.dll+0xf9c1c]
+V  [jvm.dll+0x1184bb]
+V  [jvm.dll+0x9eba0]
+C  [javaw.exe+0x1657]
+C  [javaw.exe+0x1e2c]
+C  [javaw.exe+0x8614]
+C  [kernel32.dll+0xb729]  GetModuleFileNameA+0x1ba
+
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+
+Other Threads:
+
+=>0x00846c00 (exited) JavaThread "Unknown thread" [_thread_in_vm, id=672, stack(0x008e0000,0x00930000)]
+
+VM state:not at safepoint (not fully initialized)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+Dynamic libraries:
+0x00400000 - 0x00424000 	D:\java\jdk1.6.0_25\bin\javaw.exe
+0x7c920000 - 0x7c9b6000 	C:\WINDOWS\system32\ntdll.dll
+0x7c800000 - 0x7c91e000 	C:\WINDOWS\system32\kernel32.dll
+0x77da0000 - 0x77e49000 	C:\WINDOWS\system32\ADVAPI32.dll
+0x77e50000 - 0x77ee3000 	C:\WINDOWS\system32\RPCRT4.dll
+0x77fc0000 - 0x77fd1000 	C:\WINDOWS\system32\Secur32.dll
+0x77d10000 - 0x77da0000 	C:\WINDOWS\system32\USER32.dll
+0x77ef0000 - 0x77f39000 	C:\WINDOWS\system32\GDI32.dll
+0x76300000 - 0x7631d000 	C:\WINDOWS\system32\IMM32.DLL
+0x62c20000 - 0x62c29000 	C:\WINDOWS\system32\LPK.DLL
+0x73fa0000 - 0x7400b000 	C:\WINDOWS\system32\USP10.dll
+0x7c340000 - 0x7c396000 	D:\java\jdk1.6.0_25\jre\bin\msvcr71.dll
+0x6d8a0000 - 0x6db4f000 	D:\java\jdk1.6.0_25\jre\bin\client\jvm.dll
+0x76b10000 - 0x76b3a000 	C:\WINDOWS\system32\WINMM.dll
+0x6d850000 - 0x6d85c000 	D:\java\jdk1.6.0_25\jre\bin\verify.dll
+0x6d3d0000 - 0x6d3ef000 	D:\java\jdk1.6.0_25\jre\bin\java.dll
+0x76bc0000 - 0x76bcb000 	C:\WINDOWS\system32\PSAPI.DLL
+0x6d890000 - 0x6d89f000 	D:\java\jdk1.6.0_25\jre\bin\zip.dll
+
+VM Arguments:
+jvm_args: -Dfile.encoding=GBK -Xbootclasspath:D:\android\platforms\android-8\android.jar 
+java_command: com.man.net.Base64
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+JAVA_HOME=D:\java\jdk1.6.0_25
+PATH=D:/java/jdk1.6.0_25/bin/../jre/bin/client;D:/java/jdk1.6.0_25/bin/../jre/bin;D:/java/jdk1.6.0_25/bin/../jre/lib/i386;C:\Program Files\ImageMagick-6.8.0-Q16;D:\program\ImageMagick-6.8.0-Q16;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;D:\java\jdk1.6.0_25\bin;D:\bin;D:\xampp\php;D:\xampp\perl\bin;D:\xampp\mysql\bin;D:\android\platform-tools;D:\android\tools;D:\java\apache-ant-1.8.2\bin;D:\java\apache-maven-3.0.3\bin;D:\mongodb\bin;C:\Program Files\Perforce;C:\Program Files\nodejs\;C:\Documents and Settings\huangjuanshi\Application Data\npm\;E:\eclipse;
+USERNAME=huangjuanshi
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=x86 Family 6 Model 23 Stepping 6, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows XP Build 2600 Service Pack 3
+
+CPU:total 2 (2 cores per cpu, 1 threads per core) family 6 model 23 stepping 6, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, sse4.1
+
+Memory: 4k page, physical 2078952k(378704k free), swap 4017428k(2425636k free)
+
+vm_info: Java HotSpot(TM) Client VM (20.0-b11) for windows-x86 JRE (1.6.0_25-b06), built on Apr 14 2011 01:04:32 by "java_re" with MS VC++ 7.1 (VS2003)
+
+time: Mon Jan 21 10:30:21 2013
+elapsed time: 0 seconds
+

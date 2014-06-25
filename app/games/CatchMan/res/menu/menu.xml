@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+id/restartGame" android:title="@string/restartGame"></item>
+<item android:id="@+id/resumeGame" android:title="@string/start"></item>
+<item android:id="@+id/quitGame" android:title="@string/quit"></item>
+</menu>

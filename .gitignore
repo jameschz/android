@@ -1,0 +1,13 @@
+.project/
+.settings/
+.idea/
+*.iml
+classes/
+*.class
+
+app/*/bin
+app/*/gen
+app/*/assets
+
+.DS_Store
+

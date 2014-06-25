@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World!</string>
+    <string name="app_name">DownloadDemo</string>
+    <string name="download_view_txtStatus">开始下载</string>
+    <string name="download_view_btnInstall">开始安装</string>
+
+</resources>

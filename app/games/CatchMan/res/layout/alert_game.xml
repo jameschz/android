@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="200dip"
+    android:layout_height="160dip"
+    android:background="@drawable/alert"
+    android:gravity="center"
+    >
+   	
+    <TextView
+        android:id="@+id/text_msg_fail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/alert_msg_fail" 
+        android:layout_marginBottom="10dip"
+        android:layout_marginLeft="5dip"
+        android:layout_marginTop="8dip"
+        />
+    
+    <TextView
+        android:id="@+id/text_score_key"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/alert_score" 
+        android:layout_below="@id/text_msg_fail"
+        android:layout_marginBottom="10dip"
+        android:layout_marginLeft="5dip"
+        />
+    
+    <TextView
+        android:id="@+id/text_score_val"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/text_score_key" 
+        android:layout_below="@id/text_msg_fail"
+        android:text="@string/int_0" 
+        />
+    
+    <TextView
+        android:id="@+id/text_hscore_key"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/alert_hscore" 
+        android:layout_below="@id/text_score_key"
+        android:layout_marginBottom="15dip"
+        android:layout_marginLeft="5dip"
+        />
+    
+    <TextView
+        android:id="@+id/text_hscore_val"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/text_score_key" 
+        android:layout_below="@id/text_score_key"
+        android:text="@string/int_0" 
+        />
+    
+    <Button
+        android:id="@+id/btn_restart"
+        android:layout_width="80dip"
+        android:layout_height="40dip"
+        android:layout_below="@id/text_hscore_key"
+        android:layout_marginRight="10dip"
+        android:text="@string/restartGame" 
+        android:textSize="12dip"
+        />
+
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="80dip"
+        android:layout_height="40dip"
+        android:layout_toRightOf="@id/btn_restart"
+        android:layout_below="@id/text_hscore_key"
+        android:text="@string/backToMenu" 
+        android:textSize="12dip"
+        />
+
+</RelativeLayout>

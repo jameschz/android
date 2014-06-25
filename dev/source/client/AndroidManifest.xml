@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="com.app.NAMESPACE" android:versionCode="1" android:versionName="1.0">
+	<application android:icon="@drawable/icon" android:label="@string/app_name">
+		<!-- Activity defines -->
+		<activity android:name=".app.AppLogin" android:theme="@style/com.app.NAMESPACE.theme.login">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+		<activity android:name=".app.AppIndex" android:theme="@style/com.app.NAMESPACE.theme.light">
+			<intent-filter>
+				<action android:name="android.intent.action.VIEW" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		<activity android:name=".app.AppBlog" android:theme="@style/com.app.NAMESPACE.theme.light">
+			<intent-filter>
+				<action android:name="android.intent.action.VIEW" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		<activity android:name=".app.AppBlogs" android:theme="@style/com.app.NAMESPACE.theme.light">
+			<intent-filter>
+				<action android:name="android.intent.action.VIEW" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		<activity android:name=".app.AppConfig" android:theme="@style/com.app.NAMESPACE.theme.light">
+			<intent-filter>
+				<action android:name="android.intent.action.VIEW" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		<activity android:name=".app.AppEditText" android:theme="@style/com.app.NAMESPACE.theme.light"
+			android:windowSoftInputMode="stateVisible|adjustResize"
+			android:launchMode="singleTop">
+			<intent-filter>
+				<action android:name="com.app.NAMESPACE.EDITTEXT" />
+				<action android:name="android.intent.action.VIEW" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		<activity android:name=".app.AppEditBlog" android:theme="@style/com.app.NAMESPACE.theme.light"
+			android:windowSoftInputMode="stateVisible|adjustResize"
+			android:launchMode="singleTop">
+			<intent-filter>
+				<action android:name="com.app.NAMESPACE.EDITBLOG" />
+				<action android:name="android.intent.action.VIEW" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		<activity android:name=".app.AppSetFace" android:theme="@style/com.app.NAMESPACE.theme.light"
+			android:launchMode="singleTop">
+			<intent-filter>
+				<action android:name="android.intent.action.VIEW" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		<activity android:name=".demo.DemoWeb" android:theme="@style/com.app.NAMESPACE.theme.light">
+			<intent-filter>
+				<action android:name="android.intent.action.VIEW" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		<activity android:name=".demo.DemoMap" android:theme="@style/com.app.NAMESPACE.theme.light">
+			<intent-filter>
+				<action android:name="android.intent.action.VIEW" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		<!-- Service defines -->
+		<service android:name=".service.NoticeService" android:label="Notification Service"/>
+	</application>
+	<!-- For using network -->
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+	<!-- For using notification -->
+	<uses-permission android:name="android.permission.VIBRATE" />
+</manifest>

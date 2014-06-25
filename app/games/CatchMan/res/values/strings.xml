@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">超级抓抓抓</string>
+    <string name="newGame">单机游戏</string>
+    <string name="netGame">联网游戏</string>
+    <string name="createGame">创建游戏</string>
+    <string name="startGame">开始游戏</string>
+    <string name="restartGame">重新开始</string>
+    <string name="backToMenu">退回菜单</string>
+    <string name="pause">暂停游戏</string>
+    <string name="start">继续游戏</string>
+    <string name="quit">退出游戏</string>
+    
+    <string name="alert_msg_fail">很遗憾，下次加油哦！</string>
+    <string name="alert_score">本次得分：</string>
+    <string name="alert_hscore">最高得分：</string>
+    <string name="alert_winner">获胜者是：</string>
+    <string name="alert_wscore">获胜得分：</string>
+    
+    <string name="int_0">0</string>
+    <string name="int_1">1</string>
+    <string name="int_2">2</string>
+    <string name="int_3">3</string>
+    <string name="int_4">4</string>
+    <string name="int_5">5</string>
+    <string name="int_6">6</string>
+    <string name="int_7">7</string>
+    <string name="int_8">8</string>
+    <string name="int_9">9</string>
+    
+</resources>

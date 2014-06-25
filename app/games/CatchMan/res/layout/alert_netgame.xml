@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="200dip"
+    android:layout_height="160dip"
+    android:background="@drawable/alert"
+    android:gravity="center"
+    >
+    
+    <TextView
+        android:id="@+id/text_winner_key"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/alert_winner" 
+        android:layout_marginBottom="10dip"
+        android:layout_marginLeft="5dip"
+        />
+    
+    <TextView
+        android:id="@+id/text_winner_val"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/text_winner_key" 
+        android:text="@null" 
+        />
+    
+    <TextView
+        android:id="@+id/text_wscore_key"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/alert_wscore" 
+        android:layout_below="@id/text_winner_key"
+        android:layout_marginBottom="15dip"
+        android:layout_marginLeft="5dip"
+        />
+    
+    <TextView
+        android:id="@+id/text_wscore_val"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/text_winner_key" 
+        android:layout_below="@id/text_winner_key"
+        android:text="@string/int_0" 
+        />
+    
+    <Button
+        android:id="@+id/btn_quitgame"
+        android:layout_width="80dip"
+        android:layout_height="40dip"
+        android:layout_below="@id/text_wscore_key"
+        android:layout_marginRight="10dip"
+        android:text="@string/quit" 
+        android:textSize="12dip"
+        />
+
+</RelativeLayout>

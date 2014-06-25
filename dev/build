@@ -1,0 +1,10 @@
+#!/bin/sh
+
+if [ ! -f "$PWD/cli" ]; then
+    echo "no shell"
+    exit 1
+fi
+
+PHP_EXE="php"
+
+$PHP_EXE $PWD/build.php $1 $2 $3
