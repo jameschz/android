@@ -17,7 +17,7 @@ public class DownLoadDemo extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.main);
 		// 下载配置
-		String downloadUrl = "http://116.211.28.9/d/gpall.apk";
+		String downloadUrl = "http://test.gameplus.sdo.com/gtsdk/GT_SDK_Android_v1.0.0.9.zip";
 //		String downloadUrl = "http://116.211.28.9/d/unknown.apk";
 		String saveFileName = "GamePlus.apk";
 		final DownloadView dv = new DownloadView(this, downloadUrl, saveFileName);
