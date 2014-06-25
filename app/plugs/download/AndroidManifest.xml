@@ -13,9 +13,9 @@
 
     <application
         android:icon="@drawable/ic_launcher"
-        android:label="下载" >
+        android:label="DownloadDemo" >
         <activity
-            android:label="下載程序"
+            android:label="DownloadDemo"
             android:name="com.app.plugs.download.DownLoadDemo" >
             <intent-filter >
                 <action android:name="android.intent.action.MAIN" />
