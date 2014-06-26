@@ -5,9 +5,9 @@
 classes/
 *.class
 
-app/*/*/bin
-app/*/*/gen
-app/*/*/assets
+*/bin
+*/gen
+*/assets
 
 .DS_Store
 
